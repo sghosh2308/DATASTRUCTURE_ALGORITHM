@@ -1,5 +1,7 @@
+
 public class LinkedList {
     Node Head;
+    int length=0;// Count the length of the linked list
 
     static class Node{
         int data;
@@ -27,6 +29,7 @@ public class LinkedList {
                 while (traverse.next != null) traverse = traverse.next;
                 traverse.next = generate_node;
             }
+            this.length++;
         }
     }
 
@@ -53,6 +56,7 @@ public class LinkedList {
             traverse=traverse.next;
         }
         traverse.next=null;
+        this.length--;
     }
 
    /* This function is overloaded if nothing is mentioned it will delete complete list and if position is mentioned
@@ -60,6 +64,7 @@ public class LinkedList {
 
     public void delete(){
         this.Head=null;
+        this.length=0;
     }
     public void delete(int a){
         Node traverse=this.Head;
@@ -67,14 +72,29 @@ public class LinkedList {
             traverse=traverse.next;
         }
         traverse.next=traverse.next.next;
+        this.length--;
     }
-    
+
+
+    /*This function will insert node at particular position within the range of the list*/
+    public void insert(int data, int pos){
+        if(pos>this.length) throw  new IndexOutOfBoundsException();
+            Node traverse=this.Head;
+            for(int i=1;i<=pos-1;i++) {
+                traverse=traverse.next;
+            }
+            traverse.next=new Node(data,traverse.next);
+
+        }
+
 
 
 
     public static void main(String args[]){
         LinkedList list=new LinkedList();
         list.append(1,2,3,4,4,5,0,6,6,4);
+        list.print();
+        list.insert(654,5);
         list.print();
         list.deleteatend();
         list.delete(4);
