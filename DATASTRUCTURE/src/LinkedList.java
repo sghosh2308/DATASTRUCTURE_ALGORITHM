@@ -101,19 +101,5 @@ public class LinkedList {
 
 
 
-
-    public static void main(String args[]){
-        LinkedList list=new LinkedList();
-        list.append(1,2,3,4,4,5,0,6,6,4);
-        list.delete(1);
-        list.print();
-        list.insert(654,1);
-        list.print();
-        list.deleteatend();
-        list.delete(4);
-        list.print();
-        list.delete();
-        list.print();
-
     }
-}
+
