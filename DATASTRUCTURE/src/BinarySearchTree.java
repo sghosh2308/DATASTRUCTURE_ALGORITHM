@@ -28,9 +28,17 @@ public class BinarySearchTree {
         return current;
     }
     /*This is the function that add nodes to the binary search tree*/
-    public void insert(int data){
-        this.root=addNode(this.root,data);
+
+
+    public void insert(int... data){
+        for(int x:data) {
+            this.root = addNode(this.root, x);
+        }
     }
+
+   /*This method is called by the Display as i am using a recursion based algorithm so i need to call the
+   * and return the value which i didn't want the user how i am doing so i mentioned it as private*/
+
     private Node print(Node current) {
         if (current == null) {
             return null;
@@ -42,17 +50,74 @@ public class BinarySearchTree {
         }
         return null;
     }
+
     /*This Function print the node of tree in LDR way*/
+
     public void display(){
         print(this.root);
         System.out.println("\b\b");
     }
 
+
+
+
+    private int FindMin(Node current){
+        if(current.left==null){
+            return  current.data;
+        }
+        return FindMin(current.left);
+    }
+    private Node deletenode(Node current,int data){
+        if(current==null){
+            return  current;
+        }
+        else if(data<current.data){
+            current.left=deletenode(current.left,data);
+        }
+        else if(data>current.data){
+            current.right=deletenode(current.right,data);
+        }
+        else{
+            if(current.left==null &&current.right==null){
+            return null;}
+            else if(current.left==null){
+                return current.right;
+            }
+            else if(current.right==null){
+                return current.left;
+            }
+            else{
+                Node minimum=new Node(FindMin(current.right));
+                current.data=minimum.data;
+                current.right=deletenode(current.right,minimum.data);
+            }
+
+        }
+
+        return current;
+    }
+
+    //Deletion Function which accept the data that need to be removed. It uses the same recursive concept
+    //with replacing from the right in condition where the dletion node contains two child.
+
+    public void delete(int... data){
+        for(int x:data){
+            this.root=deletenode(this.root,x);
+        }
+    }
     public static void main(String args[]){
+       Implement a=new Implement();
+        a.solver();
+    }
+
+}
+class Implement{
+    public void solver(){
         BinarySearchTree b=new BinarySearchTree();
-        b.insert(2);
-        b.insert(3);
-        b.insert(1);
+        b.insert(5,6,4,3,2,1,7,8,9,10);
         b.display();
+        for(int i :new int[]{4,1,5,2,3,6,7,8,10,9}){
+            b.delete(i);b.display();
+        }
     }
 }
