@@ -15,7 +15,7 @@ public class LinkedList {
          }
     }
 
-    /*This function add next node this it always append at the end of the list and is useing vargues concept this one or
+    /*This function add next node this it always append at the end of the list and is using Varagus concept this one or
     many node can be created at once
     * */
 
@@ -66,25 +66,37 @@ public class LinkedList {
         this.Head=null;
         this.length=0;
     }
-    public void delete(int a){
-        Node traverse=this.Head;
-        for(int i=1;i<=a-1 && traverse!=null;i++){
-            traverse=traverse.next;
+    public void delete(int a) {
+        Node traverse = this.Head;
+        if (a == 1) {
+            this.Head=traverse.next;
+            this.length--;
+
+        } else {
+            for (int i = 1; i <= a - 1 && traverse != null; i++) {
+                traverse = traverse.next;
+            }
+            traverse.next = traverse.next.next;
+            this.length--;
         }
-        traverse.next=traverse.next.next;
-        this.length--;
+
     }
 
 
-    /*This function will insert node at particular position within the range of the list*/
+    /*This function will insert node at particular position within the Range of the list*/
     public void insert(int data, int pos){
         if(pos>this.length) throw  new IndexOutOfBoundsException();
             Node traverse=this.Head;
-            for(int i=1;i<=pos-1;i++) {
-                traverse=traverse.next;
+            if(pos==1){
+                this.Head=new Node(data,traverse.next);
+                this.length++;
             }
-            traverse.next=new Node(data,traverse.next);
-
+            else {
+                for (int i = 1; i <= pos - 1; i++) {
+                    traverse = traverse.next;
+                }
+                traverse.next = new Node(data, traverse.next);
+            }
         }
 
 
@@ -93,8 +105,9 @@ public class LinkedList {
     public static void main(String args[]){
         LinkedList list=new LinkedList();
         list.append(1,2,3,4,4,5,0,6,6,4);
+        list.delete(1);
         list.print();
-        list.insert(654,5);
+        list.insert(654,1);
         list.print();
         list.deleteatend();
         list.delete(4);
