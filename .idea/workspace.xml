@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/DATASTRUCTURE/src/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DATASTRUCTURE/src/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGORITHM/ALGORITHM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/RandomizedSelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATASTRUCTURE/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DATASTRUCTURE/src/LinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,16 +15,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="270" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DATASTRUCTURE/src/BinarySearchTree.java">
+        <entry file="file://$PROJECT_DIR$/DATASTRUCTURE/src/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-419">
-              <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+              <folding>
+                <element signature="class#Node#0;class#LinkedList#0" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="method#append#0;class#LinkedList#0" />
+                <element signature="method#print#0;class#LinkedList#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,13 +59,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/FASTER_IO/src/FASTIO.java" />
-        <option value="$PROJECT_DIR$/DATASTRUCTURE/src/LinkedList.java" />
         <option value="$PROJECT_DIR$/DATASTRUCTURE/src/Tree.java" />
         <option value="$PROJECT_DIR$/DATASTRUCTURE/src/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/ALGORITHM/src/RandomizedSelection.java" />
+        <option value="$PROJECT_DIR$/DATASTRUCTURE/src/LinkedList.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="960" />
     <option name="y" value="40" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
@@ -62,7 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,6 +101,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -108,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchTree">
+  <component name="RunManager" selected="Application.RandomizedSelection">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearchTree" />
       <module name="DATASTRUCTURE" />
@@ -140,14 +156,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RandomizedSelection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomizedSelection" />
+      <module name="ALGORITHM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.FASTIO" />
       <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.BinarySearchTree" />
+      <item itemvalue="Application.RandomizedSelection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomizedSelection" />
         <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.FASTIO" />
@@ -222,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562182269760</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Deletion and Insertion updated. Now function can take muliple values for deletion and insertion">
+      <created>1562182421943</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1562182421943</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -236,17 +268,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="40" width="960" height="1040" extended-state="4" />
+    <frame x="960" y="40" width="960" height="1040" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.297593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15536106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4994664" visible="true" weight="0.32853982" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" weight="0.460177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -261,6 +293,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32977587" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -271,6 +304,9 @@
     <MESSAGE value="Binary Search tree creation and display methods are implemented." />
     <MESSAGE value="Deletion and Insertion updated. Now function can take muliple values for deletion and insertion" />
     <option name="LAST_COMMIT_MESSAGE" value="Deletion and Insertion updated. Now function can take muliple values for deletion and insertion" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DATASTRUCTRE_ALGORITHM$RandomizedSelection.ic" NAME="RandomizedSelection Coverage Results" MODIFIED="1562236609323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/FASTER_IO/src/FASTIO.java">
@@ -303,23 +339,45 @@
         <state relative-caret-position="-90" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DATASTRUCTURE/src/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/DATASTRUCTURE/src/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="94" column="52" lean-forward="true" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
+        <state relative-caret-position="450">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
           <folding>
-            <element signature="class#Node#0;class#LinkedList#0" />
-            <element signature="method#append#0;class#LinkedList#0" />
-            <element signature="method#print#0;class#LinkedList#0" />
-            <element signature="method#delete#0;class#LinkedList#0" />
+            <element signature="class#Node#0;class#BinarySearchTree#0" />
+            <element signature="method#addNode#0;class#BinarySearchTree#0" />
+            <element signature="method#insert#0;class#BinarySearchTree#0" />
+            <element signature="method#print#0;class#BinarySearchTree#0" />
+            <element signature="method#display#0;class#BinarySearchTree#0" />
+            <element signature="method#FindMin#0;class#BinarySearchTree#0" />
+            <element signature="method#deletenode#0;class#BinarySearchTree#0" />
+            <element signature="method#delete#0;class#BinarySearchTree#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DATASTRUCTURE/src/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/ALGORITHM/src/RandomizedSelection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-419">
-          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+        <state relative-caret-position="450">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DATASTRUCTURE/src/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+          <folding>
+            <element signature="class#Node#0;class#LinkedList#0" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="method#append#0;class#LinkedList#0" />
+            <element signature="method#print#0;class#LinkedList#0" />
+          </folding>
         </state>
       </provider>
     </entry>

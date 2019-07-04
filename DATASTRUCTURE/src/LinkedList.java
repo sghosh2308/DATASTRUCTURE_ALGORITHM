@@ -1,3 +1,7 @@
+/*Love You Mom
+* */
+
+import java.util.NoSuchElementException;
 
 public class LinkedList {
     Node Head;
@@ -15,7 +19,7 @@ public class LinkedList {
          }
     }
 
-    /*This function add next node this it always append at the end of the list and is using Varagus concept this one or
+    /*This function add next node this it always append at the end of the list and is using Varages concept this one or
     many node can be created at once
     * */
 
@@ -58,6 +62,25 @@ public class LinkedList {
         traverse.next=null;
         this.length--;
     }
+    /*This function finds the element and then deletes it and if no such elemnt is found it generates no such exception*/
+
+    public void FindandDelete(int data){
+        if(Head.data==data){
+           this.Head=this.Head.next;
+        }
+        else {
+            Node traverse = this.Head;
+            while (traverse.next != null) {
+                if (traverse.next.data == data) {
+                    traverse.next = traverse.next.next;
+                    return null;
+                }
+            }
+        }
+        throws new NoSuchElementException();
+
+    }
+
 
    /* This function is overloaded if nothing is mentioned it will delete complete list and if position is mentioned
    particular node will be deleted*/
