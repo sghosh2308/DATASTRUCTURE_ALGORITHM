@@ -73,11 +73,11 @@ public class LinkedList {
             while (traverse.next != null) {
                 if (traverse.next.data == data) {
                     traverse.next = traverse.next.next;
-                    return null;
+                    return;
                 }
             }
         }
-        throws new NoSuchElementException();
+        throw new NoSuchElementException();
 
     }
 
