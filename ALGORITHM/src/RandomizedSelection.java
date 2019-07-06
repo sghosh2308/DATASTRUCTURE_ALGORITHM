@@ -7,13 +7,9 @@ public class RandomizedSelection {
     }
     private int partition(int low, int high)
     {
-        int ran=(new Random()).nextInt(high-low) + low;
-        System.out.println("Random "+ran+" LOW "+low+" High "+high);
-        int temp=arr[ran];
-        arr[ran]=arr[high];
-        arr[high]=temp;
+        int temp=arr[high];
 
-        int i=low;
+        int i=low-1;
         for (int j = low; j < high; j++)
         {
 
@@ -26,8 +22,8 @@ public class RandomizedSelection {
             }
         }
 
-        arr[high] = arr[i];
-        arr[i] = temp;
+        arr[high] = arr[i+1];
+        arr[i+1] = temp;
         display();
         return i;
     }
@@ -50,7 +46,7 @@ public class RandomizedSelection {
 
             }
             else{
-                select(index+1,high,k-index+low);
+                select(index+1,high,k-index+low-1);
             }
         }
 
@@ -64,10 +60,10 @@ public class RandomizedSelection {
     }
 
     public void find(int i_th){
-        select(0,arr.length-1,i_th);
+        select(0,arr.length-1,i_th-1);
     }
     public static void main(String args[]){
         RandomizedSelection r=new RandomizedSelection(new int[]{2,10,1,4,7,3,9,5,6,8});
-        r.find(7);
+        r.find(2);
     }
 }
