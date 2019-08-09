@@ -36,7 +36,7 @@ public class BinarySearchTree {
         }
     }
 
-    /*This method is called by the Display as i am using a recursion based algorithm so i need to call the
+    /*This method is called by the Display as i am using a recursion based algorithm so i need to call
      * and return the value which i didn't want the user how i am doing so i mentioned it as private*/
 
     private Node print(Node current) {
@@ -92,12 +92,13 @@ public class BinarySearchTree {
     }
 
     //Deletion Function which accept the data that need to be removed. It uses the same recursive concept
-    //with replacing from the right in condition where the dletion node contains two child.
+    //with replacing from the right in condition where the deletion node contains two child.
 
     public void delete(int... data) {
         for (int x : data) {
             this.root = deletenode(this.root, x);
         }
     }
+
 }
 

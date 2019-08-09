@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ALGORITHM/ALGORITHM.iml" filepath="$PROJECT_DIR$/ALGORITHM/ALGORITHM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ASSIGNMENTS/ASSIGNMENTS.iml" filepath="$PROJECT_DIR$/ASSIGNMENTS/ASSIGNMENTS.iml" />
       <module fileurl="file://$PROJECT_DIR$/DATASTRUCTRE_ALGORITHM.iml" filepath="$PROJECT_DIR$/DATASTRUCTRE_ALGORITHM.iml" />
       <module fileurl="file://$PROJECT_DIR$/DATASTRUCTURE/DATASTRUCTURE.iml" filepath="$PROJECT_DIR$/DATASTRUCTURE/DATASTRUCTURE.iml" />
       <module fileurl="file://$PROJECT_DIR$/FASTER_IO/FASTER_IO.iml" filepath="$PROJECT_DIR$/FASTER_IO/FASTER_IO.iml" />
