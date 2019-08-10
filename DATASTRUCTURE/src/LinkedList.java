@@ -19,7 +19,7 @@ public class LinkedList {
          }
     }
 
-    /*This function add next node this it always append at the end of the list and is using Varages concept this one or
+    /*This function adds next node and it will always be appended at the end of the list. It uses Varages concept,thus one or
     many node can be created at once
     * */
 
@@ -62,7 +62,7 @@ public class LinkedList {
         traverse.next=null;
         this.length--;
     }
-    /*This function finds the element and then deletes it and if no such elemnt is found it generates no such exception*/
+    /*This function finds the element and then deletes it.If no such elemnt is found it generates NoSuchElementException*/
 
     public void FindandDelete(int data){
         if(Head.data==data){
@@ -82,7 +82,7 @@ public class LinkedList {
     }
 
 
-   /* This function is overloaded if nothing is mentioned it will delete complete list and if position is mentioned
+   /* This function is overloaded.If nothing is mentioned it will delete the complete list and if position is mentioned,
    particular node will be deleted*/
 
     public void delete(){
