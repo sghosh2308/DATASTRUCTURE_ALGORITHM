@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ASSIGNMENTS/ASSIGNMENTS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ASSIGNMENTS/src/Assignment-1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ASSIGNMENTS/src/Modified_linearsearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ASSIGNMENTS/src/SQUARE_ROOT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATASTRUCTURE/src/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATASTRUCTURE/src/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DATASTRUCTURE/src/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,9 +61,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Modified_linearsearch">
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList" />
+  <component name="RunManager" selected="Application.Graph">
+    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph" />
       <module name="DATASTRUCTURE" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,19 +98,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.RandomizedSelection" />
       <item itemvalue="Application.Search" />
       <item itemvalue="Application.SQUARE_ROOT" />
       <item itemvalue="Application.Modified_linearsearch" />
+      <item itemvalue="Application.Graph" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Modified_linearsearch" />
+        <item itemvalue="Application.Graph" />
         <item itemvalue="Application.SQUARE_ROOT" />
+        <item itemvalue="Application.Modified_linearsearch" />
         <item itemvalue="Application.Search" />
         <item itemvalue="Application.RandomizedSelection" />
-        <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562261012874</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="CREATING A MODIFIED LINEAR SEARCH FOR LINKED LIST">
+      <created>1565323546526</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1565323546526</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -242,7 +243,8 @@
     <MESSAGE value="Binary Search tree creation and display methods are implemented." />
     <MESSAGE value="Deletion and Insertion updated. Now function can take muliple values for deletion and insertion" />
     <MESSAGE value="Deletion by value function added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deletion by value function added" />
+    <MESSAGE value="CREATING A MODIFIED LINEAR SEARCH FOR LINKED LIST" />
+    <option name="LAST_COMMIT_MESSAGE" value="CREATING A MODIFIED LINEAR SEARCH FOR LINKED LIST" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DATASTRUCTRE_ALGORITHM$RandomizedSelection.ic" NAME="RandomizedSelection Coverage Results" MODIFIED="1562236609323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
