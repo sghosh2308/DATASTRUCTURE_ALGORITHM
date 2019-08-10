@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DATASTRUCTURE/src/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/Breadth_first_search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALGORITHM/ALGORITHM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/ALGORITHM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATASTRUCTURE/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/DATASTRUCTURE/src/Graph.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="270" />
@@ -39,12 +44,17 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ASSIGNMENTS/src" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ASSIGNMENTS/src" />
     </key>
@@ -61,7 +71,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Graph">
+  <component name="RunManager" selected="Application.Breadth_first_search">
+    <configuration name="Breadth_first_search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Breadth_first_search" />
+      <module name="ALGORITHM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graph" />
       <module name="DATASTRUCTURE" />
@@ -72,13 +89,6 @@
     <configuration name="Modified_linearsearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Modified_linearsearch" />
       <module name="ASSIGNMENTS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomizedSelection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RandomizedSelection" />
-      <module name="ALGORITHM" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,19 +108,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RandomizedSelection" />
       <item itemvalue="Application.Search" />
       <item itemvalue="Application.SQUARE_ROOT" />
       <item itemvalue="Application.Modified_linearsearch" />
       <item itemvalue="Application.Graph" />
+      <item itemvalue="Application.Breadth_first_search" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Breadth_first_search" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.SQUARE_ROOT" />
         <item itemvalue="Application.Modified_linearsearch" />
         <item itemvalue="Application.Search" />
-        <item itemvalue="Application.RandomizedSelection" />
       </list>
     </recent_temporary>
   </component>
@@ -124,6 +134,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562064347027</updated>
+      <workItem from="1565423439528" duration="56000" />
+      <workItem from="1565447102418" duration="8786000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST COMMIT">
       <created>1562065623107</created>
@@ -221,6 +233,9 @@
       <is-autoscroll-to-source value="true" />
       <is-preview-enabled value="true" />
     </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

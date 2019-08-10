@@ -1,3 +1,4 @@
+
 public class Graph {
     /*Trying to implement graph using the concept of Adjacency List*/
     Node list[];
@@ -5,40 +6,35 @@ public class Graph {
     class Node{
         int data;
         Node next;
-
         Node(int data){
             this.data=data;
             this.next=next;
         }
-        Node(){
-
-    }
 
         private void addNext(int data) {
-            if(this==null){
-                this.data=data;
-                this.next=null;
-            }
-            else{ Node n=this;
+             Node n=this;
                 while(n.next!=null){
                     n=n.next;
                 }
                 n.next=new Node(data);
             }
         }
-    }
+
     Graph(int v,int e) {
         this.vertex = v;
         this.edge = e;
         list = new Node[v];
-        for (int i = 0; i < vertex; i++) {
-            list[i] = new Node();
         }
-    }
 
-        public void addvertex(int from,int to) {
-            if (this.counter < edge){
-                this.list[from].addNext(to);
+
+        public void addedge(int from,int to) {
+            if (this.counter < edge) {
+                if (this.list[from] == null) {
+                    list[from] = new Node(to);
+                } else {
+                    this.list[from].addNext(to);
+
+                }
                 counter++;
             }
             else{
@@ -60,12 +56,6 @@ public class Graph {
             }
         }
 
-    public static void main(String args[]){
-        Graph g=new Graph(4,5);
-        g.addvertex(1,3);
-        g.addvertex(1,1);
-        g.addvertex(3,2);
-        g.print();
     }
 
-}
+
