@@ -4,7 +4,7 @@
     <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ALGORITHM/src/Breadth_first_search.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/Breadth_first_search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATASTRUCTURE/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/DATASTRUCTURE/src/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALGORITHM/src/Depth_first_search.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/Depth_first_search.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Depth_first_search">
+  <component name="RunManager" selected="Application.Breadth_first_search">
     <configuration name="Breadth_first_search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Breadth_first_search" />
       <module name="ALGORITHM" />
@@ -115,8 +115,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Depth_first_search" />
         <item itemvalue="Application.Breadth_first_search" />
+        <item itemvalue="Application.Depth_first_search" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.SQUARE_ROOT" />
         <item itemvalue="Application.Modified_linearsearch" />
@@ -136,7 +136,7 @@
       <workItem from="1565423439528" duration="56000" />
       <workItem from="1565447102418" duration="9757000" />
       <workItem from="1565510129008" duration="17000" />
-      <workItem from="1565553653391" duration="8678000" />
+      <workItem from="1565553653391" duration="10277000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST COMMIT">
       <created>1562065623107</created>
@@ -243,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565562253190</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Depth first search implementation.">
+      <created>1565562344899</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1565562344899</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">

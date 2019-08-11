@@ -45,12 +45,27 @@ public class Depth_first_search extends Graph {
     }
 
     public static void main(String args[]) {
-        Depth_first_search g = new Depth_first_search(5, 5);
-        g.addedge(1, 2);
-        g.addedge(2, 3);
-        g.addedge(3, 4);
-        g.addedge(4, 2);
-        g.addedge(3, 1);
+        Depth_first_search g = new Depth_first_search(11, 20);
+        g.addedge(1,5);
+        g.addedge(1,6);
+        g.addedge(1,2);
+        g.addedge(1,4);
+        g.addedge(1,7);
+        g.addedge(2,3);
+        g.addedge(2,4);
+        g.addedge(3,4);
+        g.addedge(3,2);
+        g.addedge(4,5);
+        g.addedge(5,6);
+        g.addedge(7,6);
+        g.addedge(8,7);
+        g.addedge(8,1);
+        g.addedge(8,2);
+        g.addedge(9,8);
+        g.addedge(9,2);
+        g.addedge(9,10);
+        g.addedge(10,2);
+        g.addedge(10,3);
         g.print();
         g.dfs();
 
