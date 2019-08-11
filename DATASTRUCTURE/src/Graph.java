@@ -2,7 +2,7 @@
 public class Graph {
     /*Trying to implement graph using the concept of Adjacency List*/
     Node list[];
-    private int vertex,edge,counter=0;
+    protected int vertex,edge,counter=0;
     class Node{
         int data;
         Node next;

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/Breadth_first_search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ALGORITHM/ALGORITHM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/ALGORITHM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALGORITHM/src/Breadth_first_search.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/Breadth_first_search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DATASTRUCTURE/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/DATASTRUCTURE/src/Graph.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,9 +70,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Breadth_first_search">
+  <component name="RunManager" selected="Application.Depth_first_search">
     <configuration name="Breadth_first_search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Breadth_first_search" />
+      <module name="ALGORITHM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Depth_first_search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Depth_first_search" />
       <module name="ALGORITHM" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,27 +106,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Search" />
-      <module name="ALGORITHM" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Search" />
       <item itemvalue="Application.SQUARE_ROOT" />
       <item itemvalue="Application.Modified_linearsearch" />
       <item itemvalue="Application.Graph" />
       <item itemvalue="Application.Breadth_first_search" />
+      <item itemvalue="Application.Depth_first_search" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Depth_first_search" />
         <item itemvalue="Application.Breadth_first_search" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.SQUARE_ROOT" />
         <item itemvalue="Application.Modified_linearsearch" />
-        <item itemvalue="Application.Search" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +134,9 @@
       <option name="presentableId" value="Default" />
       <updated>1562064347027</updated>
       <workItem from="1565423439528" duration="56000" />
-      <workItem from="1565447102418" duration="8786000" />
+      <workItem from="1565447102418" duration="9757000" />
+      <workItem from="1565510129008" duration="17000" />
+      <workItem from="1565553653391" duration="8678000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST COMMIT">
       <created>1562065623107</created>
@@ -221,7 +222,28 @@
       <option name="project" value="LOCAL" />
       <updated>1565323546526</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ADDING BREADTH FIRST SEARCH FOR SEARCHING THE SHORTEST PATH FROM A GIVEN&#10;NODE IN ADJACENCY LIST">
+      <created>1565458113088</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1565458113089</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Printing the path">
+      <created>1565559662040</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1565559662040</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Depth first search implementation.">
+      <created>1565562253190</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1565562253190</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -259,7 +281,10 @@
     <MESSAGE value="Deletion and Insertion updated. Now function can take muliple values for deletion and insertion" />
     <MESSAGE value="Deletion by value function added" />
     <MESSAGE value="CREATING A MODIFIED LINEAR SEARCH FOR LINKED LIST" />
-    <option name="LAST_COMMIT_MESSAGE" value="CREATING A MODIFIED LINEAR SEARCH FOR LINKED LIST" />
+    <MESSAGE value="ADDING BREADTH FIRST SEARCH FOR SEARCHING THE SHORTEST PATH FROM A GIVEN&#10;NODE IN ADJACENCY LIST" />
+    <MESSAGE value="Printing the path" />
+    <MESSAGE value="Depth first search implementation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Depth first search implementation." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DATASTRUCTRE_ALGORITHM$RandomizedSelection.ic" NAME="RandomizedSelection Coverage Results" MODIFIED="1562236609323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

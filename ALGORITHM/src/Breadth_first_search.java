@@ -5,7 +5,7 @@ public class Breadth_first_search extends Graph {
     private int color[];
     private int distance[];
     private int descendent[];
-    Breadth_first_search(int v, int e) {
+    private Breadth_first_search(int v, int e) {
         super(v, e);
         color=new int[v];
         distance=new int[v];
