@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="">
+    <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="Depth first search implementation.">
+      <change afterPath="$PROJECT_DIR$/DATASTRUCTURE/src/Red_Black_Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ALGORITHM/src/Breadth_first_search.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/Breadth_first_search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ALGORITHM/src/Depth_first_search.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/Depth_first_search.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Breadth_first_search">
+  <component name="RunManager" selected="Application.Red_Black_Tree">
     <configuration name="Breadth_first_search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Breadth_first_search" />
       <module name="ALGORITHM" />
@@ -92,9 +91,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Modified_linearsearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Modified_linearsearch" />
-      <module name="ASSIGNMENTS" />
+    <configuration name="Red_Black_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Red_Black_Tree" />
+      <module name="DATASTRUCTURE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,18 +107,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.SQUARE_ROOT" />
-      <item itemvalue="Application.Modified_linearsearch" />
       <item itemvalue="Application.Graph" />
       <item itemvalue="Application.Breadth_first_search" />
       <item itemvalue="Application.Depth_first_search" />
+      <item itemvalue="Application.Red_Black_Tree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Red_Black_Tree" />
         <item itemvalue="Application.Breadth_first_search" />
         <item itemvalue="Application.Depth_first_search" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.SQUARE_ROOT" />
-        <item itemvalue="Application.Modified_linearsearch" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +136,8 @@
       <workItem from="1565447102418" duration="9757000" />
       <workItem from="1565510129008" duration="17000" />
       <workItem from="1565553653391" duration="10277000" />
+      <workItem from="1565759578310" duration="4308000" />
+      <workItem from="1565864896960" duration="4092000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST COMMIT">
       <created>1562065623107</created>
