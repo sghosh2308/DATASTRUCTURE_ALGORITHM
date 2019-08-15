@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="Depth first search implementation.">
-      <change afterPath="$PROJECT_DIR$/DATASTRUCTURE/src/Red_Black_Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +134,7 @@
       <workItem from="1565510129008" duration="17000" />
       <workItem from="1565553653391" duration="10277000" />
       <workItem from="1565759578310" duration="4308000" />
-      <workItem from="1565864896960" duration="4092000" />
+      <workItem from="1565864896960" duration="4351000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST COMMIT">
       <created>1562065623107</created>
@@ -251,7 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565562344899</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="RED BLACK TREE IMPLEMENTATION">
+      <created>1565870150680</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1565870150680</updated>
+    </task>
+    <task id="LOCAL-00018" summary="RED BLACK TREE IMPLEMENTATION">
+      <created>1565870232225</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1565870232225</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -292,7 +303,8 @@
     <MESSAGE value="ADDING BREADTH FIRST SEARCH FOR SEARCHING THE SHORTEST PATH FROM A GIVEN&#10;NODE IN ADJACENCY LIST" />
     <MESSAGE value="Printing the path" />
     <MESSAGE value="Depth first search implementation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Depth first search implementation." />
+    <MESSAGE value="RED BLACK TREE IMPLEMENTATION" />
+    <option name="LAST_COMMIT_MESSAGE" value="RED BLACK TREE IMPLEMENTATION" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DATASTRUCTRE_ALGORITHM$RandomizedSelection.ic" NAME="RandomizedSelection Coverage Results" MODIFIED="1562236609323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
