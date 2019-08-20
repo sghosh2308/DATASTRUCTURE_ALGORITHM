@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="" />
+    <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Red_Black_Tree">
+  <component name="RunManager" selected="Application.Sort">
     <configuration name="Breadth_first_search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Breadth_first_search" />
       <module name="ALGORITHM" />
@@ -74,15 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Depth_first_search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Depth_first_search" />
-      <module name="ALGORITHM" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph" />
+    <configuration name="Btree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Btree" />
       <module name="DATASTRUCTURE" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,27 +91,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SQUARE_ROOT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SQUARE_ROOT" />
-      <module name="ASSIGNMENTS" />
+    <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Search" />
+      <module name="ALGORITHM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort" />
+      <module name="ALGORITHM" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SQUARE_ROOT" />
-      <item itemvalue="Application.Graph" />
       <item itemvalue="Application.Breadth_first_search" />
-      <item itemvalue="Application.Depth_first_search" />
       <item itemvalue="Application.Red_Black_Tree" />
+      <item itemvalue="Application.Btree" />
+      <item itemvalue="Application.Sort" />
+      <item itemvalue="Application.Search" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.Search" />
+        <item itemvalue="Application.Btree" />
         <item itemvalue="Application.Red_Black_Tree" />
         <item itemvalue="Application.Breadth_first_search" />
-        <item itemvalue="Application.Depth_first_search" />
-        <item itemvalue="Application.Graph" />
-        <item itemvalue="Application.SQUARE_ROOT" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +137,9 @@
       <workItem from="1565510129008" duration="17000" />
       <workItem from="1565553653391" duration="10277000" />
       <workItem from="1565759578310" duration="4308000" />
-      <workItem from="1565864896960" duration="4351000" />
+      <workItem from="1565864896960" duration="6546000" />
+      <workItem from="1566213584439" duration="1382000" />
+      <workItem from="1566280117217" duration="5787000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST COMMIT">
       <created>1562065623107</created>
@@ -262,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565870232225</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="RED BLACK TREE IMPLEMENTATION">
+      <created>1565870352725</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1565870352725</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -305,6 +317,7 @@
     <MESSAGE value="Depth first search implementation." />
     <MESSAGE value="RED BLACK TREE IMPLEMENTATION" />
     <option name="LAST_COMMIT_MESSAGE" value="RED BLACK TREE IMPLEMENTATION" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DATASTRUCTRE_ALGORITHM$RandomizedSelection.ic" NAME="RandomizedSelection Coverage Results" MODIFIED="1562236609323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
