@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="" />
+    <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="SORTING ALGORITHMS" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +136,7 @@
       <workItem from="1565759578310" duration="4308000" />
       <workItem from="1565864896960" duration="6546000" />
       <workItem from="1566213584439" duration="1382000" />
-      <workItem from="1566280117217" duration="6470000" />
+      <workItem from="1566280117217" duration="7138000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST COMMIT">
       <created>1562065623107</created>
@@ -285,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566286092144</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="SORTING ALGORITHMS">
+      <created>1566288925548</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1566288925548</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
