@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -100,6 +102,6 @@ public class Breadth_first_search extends Graph {
         int s=Integer.parseInt(br.readLine());
         g.search(s);
        System.out.println("");
-        g.print_path(9,6);
+        g.print_path(s,6);
     }
 }

@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class BinarySearchTree {
     Node root;
 
@@ -38,23 +41,17 @@ public class BinarySearchTree {
 
     /*This method is called by the Display as i am using a recursion based algorithm so i need to call
      * and return the value which i didn't want the user how i am doing so i mentioned it as private*/
-
-    private Node print(Node current) {
-        if (current == null) {
-            return null;
-        } else {
-
-            print(current.left);
-            System.out.print(current.data + ", ");
-            print(current.right);
-        }
-        return null;
-    }
-
     /*This Function print the node of tree in LDR way*/
 
     public void display() {
-        print(this.root);
+        System.out.println("THIS IS INORDER");
+        inorder(this.root);
+        System.out.println("\nTHIS IS PREORDER");
+        preorder(this.root);
+        System.out.println("\nTHIS IS POSTORDER");
+        postorder(this.root);
+        System.out.println("\n THIS IS LEVEL ORDER TRAVERSAL");
+        levelordertraversal(this.root);
         System.out.println("\b\b");
     }
 
@@ -100,5 +97,60 @@ public class BinarySearchTree {
         }
     }
 
+    private Node postorder(Node current) {
+        if (current == null) {
+            return null;
+        } else {
+            postorder(current.left);
+            postorder(current.right);
+            System.out.print(current.data + ", ");
+        }
+        return null;
+    }
+
+    private Node preorder(Node current) {
+        if (current == null) {
+            return null;
+        } else {
+            System.out.print(current.data + ", ");
+            preorder(current.left);
+            preorder(current.right);
+        }
+        return null;
+    }
+
+    private Node inorder(Node current) {
+        if (current == null) {
+            return null;
+        } else {
+
+            inorder(current.left);
+            System.out.print(current.data + ", ");
+            inorder(current.right);
+        }
+        return null;
+    }
+    private void levelordertraversal(Node current){
+        Queue<Node> q=new LinkedList<>();
+        q.add(current);
+        while(!q.isEmpty()){
+            Node n=q.poll();
+            System.out.print(n.data+", ");
+            if(n.left!=null){
+                q.add(n.left);
+            }
+            if(n.right!=null){
+                q.add(n.right);
+            }
+        }
+    }
+
+
+    public static void main(String args[]) {
+        BinarySearchTree b = new BinarySearchTree();
+        b.insert(new int[]{23, 45, 1, 26, 89, 70, 36, 78, 98, 22, 19, 3, 100, 120, 34});
+        b.display();
+
+    }
 }
 

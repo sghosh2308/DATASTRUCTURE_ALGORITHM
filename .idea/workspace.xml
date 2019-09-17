@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="SORTING ALGORITHMS" />
+    <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/JobSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALGORITHM/src/Breadth_first_search.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/Breadth_first_search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATASTRUCTURE/src/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DATASTRUCTURE/src/BinarySearchTree.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,22 +80,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Btree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Btree" />
-      <module name="DATASTRUCTURE" />
+    <configuration name="Depth_first_search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Depth_first_search" />
+      <module name="ALGORITHM" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Red_Black_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Red_Black_Tree" />
-      <module name="DATASTRUCTURE" />
+    <configuration name="JobSequenc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JobSequenc" />
+      <module name="ALGORITHM" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Search" />
+    <configuration name="JobSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JobSequence" />
       <module name="ALGORITHM" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,18 +110,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Breadth_first_search" />
-      <item itemvalue="Application.Red_Black_Tree" />
-      <item itemvalue="Application.Btree" />
+      <item itemvalue="Application.Depth_first_search" />
+      <item itemvalue="Application.JobSequenc" />
+      <item itemvalue="Application.JobSequence" />
       <item itemvalue="Application.Sort" />
-      <item itemvalue="Application.Search" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.Search" />
-        <item itemvalue="Application.Btree" />
-        <item itemvalue="Application.Red_Black_Tree" />
+        <item itemvalue="Application.Depth_first_search" />
         <item itemvalue="Application.Breadth_first_search" />
+        <item itemvalue="Application.JobSequence" />
+        <item itemvalue="Application.JobSequenc" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +142,11 @@
       <workItem from="1565759578310" duration="4308000" />
       <workItem from="1565864896960" duration="6546000" />
       <workItem from="1566213584439" duration="1382000" />
-      <workItem from="1566280117217" duration="7138000" />
+      <workItem from="1566280117217" duration="7184000" />
+      <workItem from="1567489794076" duration="2274000" />
+      <workItem from="1568062789693" duration="861000" />
+      <workItem from="1568094645627" duration="4938000" />
+      <workItem from="1568685446747" duration="1000000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST COMMIT">
       <created>1562065623107</created>
@@ -292,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566288925548</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="SORTING ALGORITHMS">
+      <created>1566289726642</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1566289726642</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
