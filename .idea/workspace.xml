@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/A_Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/BinaryTreeCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/Treenode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/CheckBst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ALGORITHM/src/BSTfromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/BSTfromSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ALGORITHM/src/Breadth_first_search.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/Breadth_first_search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ALGORITHM/src/ConBinaryToBst.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/ConBinaryToBst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALGORITHM/Breadth_first_search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALGORITHM/Breadth_first_search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALGORITHM/META-INF/ALGORITHM.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALGORITHM/META-INF/ALGORITHM.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATASTRUCTURE/Red_Black_Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATASTRUCTURE/Red_Black_Tree.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +140,7 @@
       <workItem from="1568094645627" duration="4938000" />
       <workItem from="1568685446747" duration="1000000" />
       <workItem from="1582018650895" duration="3326000" />
-      <workItem from="1582031408281" duration="4594000" />
+      <workItem from="1582031408281" duration="6264000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST COMMIT">
       <created>1562065623107</created>
@@ -324,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582036143211</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="COnverting Binary Tree to BSt">
+      <created>1582036294301</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1582036294301</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -373,38 +373,38 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2" timestamp="1582036143118">
+    <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2" timestamp="1582036293974">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1582036143118" />
+    <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1582036293974" />
     <state x="738" y="296" width="501" height="513" key="FileChooserDialogImpl" timestamp="1582018748598">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="738" y="296" width="501" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582018748598" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1582035088953">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1582037961415">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582035088953" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1582035088946">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582037961415" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1582037961411">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582035088946" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1582035088945">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582037961411" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1582037961411">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582035088945" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1582035088951">
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582037961411" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1582037961411">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582035088951" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582037961411" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1582018839550">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1582018839550" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1582032405814">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1582036296780">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1582032405814" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1582036296780" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582031436837">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
