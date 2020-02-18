@@ -47,7 +47,7 @@ public class Breadth_first_search extends Graph {
 
                 color[d]=3;
                 curr=curr.next;
-               // System.out.println("CHNAGING CURR TO NEXT VAL"+curr.data);
+               // System.out.println("CHANGING CURR TO NEXT VAL"+curr.data);
 
             }
         }
@@ -98,10 +98,11 @@ public class Breadth_first_search extends Graph {
         g.addedge(10,2);
         g.addedge(10,3);
         g.print();
-        System.out.println("ENETR THE SOURCE");
+        System.out.println("ENTER THE SOURCE AND DESTINATION");
         int s=Integer.parseInt(br.readLine());
         g.search(s);
+        int d=Integer.parseInt(br.readLine());
        System.out.println("");
-        g.print_path(s,6);
+        g.print_path(s,d);
     }
 }

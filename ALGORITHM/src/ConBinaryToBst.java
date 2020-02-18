@@ -54,6 +54,4 @@ public class ConBinaryToBst
         c.inorderTraversal(root);
     }
 
-
-
 }
