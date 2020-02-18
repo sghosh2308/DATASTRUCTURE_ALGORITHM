@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/CheckBst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/KthElementBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALGORITHM/src/BSTfromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/BSTfromSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ALGORITHM/src/ConBinaryToBst.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/ConBinaryToBst.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
       <recent name="$PROJECT_DIR$/ASSIGNMENTS/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConBinaryToBst">
+  <component name="RunManager" selected="Application.BSTfromSortedArray">
     <configuration name="BSTfromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BSTfromSortedArray" />
       <module name="ALGORITHM" />
@@ -109,8 +110,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConBinaryToBst" />
         <item itemvalue="Application.BSTfromSortedArray" />
+        <item itemvalue="Application.ConBinaryToBst" />
         <item itemvalue="Application.Breadth_first_search" />
         <item itemvalue="Application.Sort" />
         <item itemvalue="Application.Depth_first_search" />
@@ -140,7 +141,7 @@
       <workItem from="1568094645627" duration="4938000" />
       <workItem from="1568685446747" duration="1000000" />
       <workItem from="1582018650895" duration="3326000" />
-      <workItem from="1582031408281" duration="6264000" />
+      <workItem from="1582031408281" duration="8120000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST COMMIT">
       <created>1562065623107</created>
@@ -324,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582036294301</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Checking if Tree is actually BST">
+      <created>1582038052886</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1582038052886</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView">
@@ -369,42 +377,43 @@
     <MESSAGE value="SORTING ALGORITHMS" />
     <MESSAGE value="Creating Minimal BST from sorted Array" />
     <MESSAGE value="COnverting Binary Tree to BSt" />
-    <option name="LAST_COMMIT_MESSAGE" value="COnverting Binary Tree to BSt" />
+    <MESSAGE value="Checking if Tree is actually BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checking if Tree is actually BST" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2" timestamp="1582036293974">
+    <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2" timestamp="1582038052827">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1582036293974" />
+    <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1582038052827" />
     <state x="738" y="296" width="501" height="513" key="FileChooserDialogImpl" timestamp="1582018748598">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="738" y="296" width="501" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582018748598" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1582037961415">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1582041062905">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582037961415" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1582037961411">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582041062905" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1582041062904">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582037961411" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1582037961411">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582041062904" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1582041062904">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582037961411" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1582037961411">
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582041062904" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1582041062905">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582037961411" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582041062905" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1582018839550">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1582018839550" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1582036296780">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1582038055732">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1582036296780" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1582038055732" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582031436837">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
