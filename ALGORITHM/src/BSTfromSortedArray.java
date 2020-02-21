@@ -20,8 +20,10 @@ public class BSTfromSortedArray {
     {
         int[] arr={1,2,3,4,5,6,7};
         Treenode root=createBST(arr);
-
+        KthElementBST k=new KthElementBST();
+        k.kthSmallestBST(root,3);
+        k.kthLargestBST(root,1);
+        VerticalTraversalBST vt=new VerticalTraversalBST();
+        vt.traverseVertically(root);
     }
-
-
 }

@@ -50,7 +50,12 @@ public class ConBinaryToBst
         ConBinaryToBst c=new ConBinaryToBst();
         c.inorderTraversal(root);
         System.out.println(" ");
+        CheckBst check=new CheckBst();
+        if(check.checkBST(root))
+            System.out.println("IT IS BST");
         root=c.convert(root);
+        if(check.checkBST(root))
+            System.out.println("IT IS BST");
         c.inorderTraversal(root);
     }
 
