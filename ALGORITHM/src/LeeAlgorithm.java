@@ -1,13 +1,12 @@
 /*Implementing Lee Algorithm to find the path from a source to destination in Binary Graph*/
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.PriorityQueue;
 
 public class LeeAlgorithm
 {   int ROW,COLUMN;
     int matrix[][];
     boolean visited[][];
-    int[] row_movement=new int[]{-1,0,0,1};
-    int[] column_movement=new int[]{0,-1,1,0};
+    int[] row_movement=new int[]{-1,0,0,1,-1,-1,1,1};
+    int[] column_movement=new int[]{0,-1,1,0,-1,1,-1,1};
     Point source,destination;
     public LeeAlgorithm(int matrix[][],int x1,int y1,int x2,int y2)
     {
@@ -50,7 +49,7 @@ public class LeeAlgorithm
             this.column_no=column_no;
         }
     }
-    static class TravelPoint
+    static class TravelPoint implements Comparable<TravelPoint>
     {
         Point p;
         int weight;
@@ -58,6 +57,15 @@ public class LeeAlgorithm
         {
             this.p=p;
             this.weight=weight;
+        }
+
+        @Override
+        public int compareTo(TravelPoint o1){
+            if(this.weight<o1.weight)
+                return 1;
+            else if(this.weight>o1.weight)
+                return -1;
+            return 0;
         }
     }
     private boolean isvalid(int row,int column)
@@ -77,7 +85,8 @@ public class LeeAlgorithm
             System.out.println("Path Cannot be found Destination isn't reachable");
             return;
         }
-        Queue<TravelPoint> q=new LinkedList<>();
+        int count=0;
+        PriorityQueue<TravelPoint> q=new PriorityQueue<TravelPoint>();
         this.visited[this.source.row_no][this.source.column_no]=true;
         q.add(new TravelPoint(source,0));
         while(!q.isEmpty())
@@ -87,34 +96,32 @@ public class LeeAlgorithm
             if((p.row_no==this.destination.row_no)&&(p.column_no==this.destination.column_no))
             {
                 System.out.println("Path Found   "+current.weight);
+                System.out.println(count);
                 return;
             }
-                for(int i=0;i<4;i++)
+                for(int i=0;i<8;i++)
                 {
                     int row=p.row_no+this.row_movement[i];
                     int col=p.column_no+this.column_movement[i];
-                    if((isvalid(row,col))&&(!this.visited[row][col])&&(this.matrix[row][col]==1))
+                    if((isvalid(row,col)&&(!this.visited[row][col]))&&((this.matrix[row][col]==1)||(this.matrix[row][col]==2)))
                     {
                         this.visited[row][col]=true;
-                        q.add(new TravelPoint((new Point(row,col)),current.weight+1));
+                        int cweight=this.matrix[row][col]==1?current.weight+1:current.weight-1;
+                        q.add(new TravelPoint((new Point(row,col)),cweight));
+                        count++;
                     }
+
                 }
             }
+
+            System.out.println(count);
             System.out.println("Path cannot be devised");
             return;
         }
         public static void main(String ...x)
         {
-            int mat[][]=new int[][]{{1,0,1,1,1,1,0,1,1,1},
-                                    {1,0,1,0,1,1,1,0,1,1},
-                                    {1,1,1,0,1,1,0,1,0,1},
-                                    {0,0,0,0,1,0,0,0,0,1},
-                                    {1,1,1,0,1,1,1,0,1,0},
-                                    {1,0,1,1,1,1,0,1,0,0},
-                                    {1,0,0,0,0,0,0,0,0,1},
-                                    {1,0,1,1,1,1,0,1,1,1},
-                                    {1,1,0,0,0,0,1,0,0,1}};
-            LeeAlgorithm l=new LeeAlgorithm(mat,0,0,4,5);
+            int mat[][]=new int[][]{{1,2,1},{1,1,0},{0,1,1}};
+            LeeAlgorithm l=new LeeAlgorithm(mat,0,0,mat[0].length-1,mat.length-1);
             l.startVisiting();
         }
 
