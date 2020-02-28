@@ -39,7 +39,7 @@ public class Breadth_first_search extends Graph {
                     color[curr.data]=1;
                     distance[curr.data]=distance[d]+1;
                     this.descendent[curr.data]=i;
-                   // System.out.println("STTING DESCENDANT WITH VALUE "+i);
+                   // System.out.println("SITTING DESCENDANT WITH VALUE "+i);
                     //System.out.println("");
                     q.add(list[curr.data]);
                     descendent.add(curr.data);
@@ -99,10 +99,10 @@ public class Breadth_first_search extends Graph {
         g.addedge(10,3);
         g.print();
         System.out.println("ENTER THE SOURCE AND DESTINATION");
-        int s=Integer.parseInt(br.readLine());
-        g.search(s);
+
+        g.search(0);
         int d=Integer.parseInt(br.readLine());
        System.out.println("");
-        g.print_path(s,d);
+        g.print_path(1,d);
     }
 }

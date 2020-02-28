@@ -33,11 +33,11 @@ public class Graph {
                     list[from] = new Node(to);
                 } else {
                     this.list[from].addNext(to);
-
                 }
                 counter++;
             }
-            else{
+            else
+                {
                 System.out.println("NO MORE EDGES CAN'T BE ADDED");
             }
 
