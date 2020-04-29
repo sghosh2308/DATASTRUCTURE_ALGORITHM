@@ -8,8 +8,8 @@ public class LeeAlgorithm
 {   int ROW,COLUMN;
     int matrix[][];
     boolean visited[][];
-    int[] row_movement=new int[]{-1,0,0,1,-1,-1,1,1};
-    int[] column_movement=new int[]{0,-1,1,0,-1,1,-1,1};
+    int[] row_movement=new int[]{-1,0,0,1};
+    int[] column_movement=new int[]{0,-1,1,0};
     Point source,destination;
     private Iterator<TravelPoint> pointIterator;
 
@@ -22,25 +22,6 @@ public class LeeAlgorithm
         this.visited=new boolean[this.ROW][this.COLUMN];
         this.source=new Point(y1,x1);
         this.destination=new Point(y2,x2);
-        for(int i=0;i<this.matrix.length;i++)
-        {
-            for(int j=0;j<this.matrix[0].length;j++)
-            {
-                if((i==source.row_no)&&(j==source.column_no))
-                {
-                    System.out.print("s ");
-                }
-                else if((i==destination.row_no)&&(j==destination.column_no))
-                {
-                    System.out.print("d ");
-                }
-                else
-                    {
-                        System.out.print(this.matrix[i][j]+" ");
-                    }
-            }
-            System.out.println();
-        }
 
     }
     static class Point
@@ -81,7 +62,7 @@ public class LeeAlgorithm
     }
     private boolean isvalid(int row,int column)
     {
-        boolean b = (row >= 0) && (row < this.ROW) && (column >=0) && (column < this.COLUMN);
+        boolean b = (row >= 0) && (row < 8) && (column >=0) && (column <8);
         return b;
     }
     public void startVisiting()
@@ -131,7 +112,8 @@ public class LeeAlgorithm
         }
         public static void main(String ...x)
         {
-            int mat[][]=new int[][]{{1,0,1,1,1,1,0,1,1,1},
+            int mat[][]=new int[][]{
+            {1,0,1,1,1,1,0,1,1,1},
             {1,0,1,0,1,1,1,0,1,1},
             {1,1,1,0,1,1,0,1,0,1},
             {0,0,0,0,1,0,0,0,0,1},

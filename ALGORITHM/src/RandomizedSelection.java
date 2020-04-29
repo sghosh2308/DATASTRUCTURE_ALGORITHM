@@ -1,5 +1,3 @@
-import java.util.Random;
-
 public class RandomizedSelection {
     private int arr[];
     public RandomizedSelection(int arr[]){
@@ -27,25 +25,26 @@ public class RandomizedSelection {
         display();
         return i;
     }
-
-
-
     private void select(int low,int high,int k){
-       if(low<high){
+       if(low<high)
+       {
 
             int index=partition(low,high);
 
 
            System.out.println();
-            if(index-low==k){
+            if(index-low==k)
+            {
                 System.out.println(arr[index]);
 
             }
-            else if(index-low>k){
+            else if(index-low>k)
+            {
                 select(low,index-1,k);
 
             }
-            else{
+            else
+            {
                 select(index+1,high,k-index+low-1);
             }
         }
@@ -53,13 +52,16 @@ public class RandomizedSelection {
     }
     public void display(){
         StringBuilder s=new StringBuilder();
-        for(int i:this.arr){
+        for(int i:this.arr)
+        {
             s.append(i).append(", ");
         }
         System.out.println(s);
     }
 
-    public void find(int i_th){
+    public void find(int i_th)
+    {
+
         select(0,arr.length-1,i_th-1);
     }
     public static void main(String args[]){

@@ -22,7 +22,7 @@ public class Count_n_POSSIBLE_STEPS
     }
     public static void main(String args[])
     {
-        int answer=countnways(37);
+        int answer=countnways(10);
         System.out.println(answer);
     }
 }
