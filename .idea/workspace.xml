@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/BinaryArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/InvertBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/LongestSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/Longtest_string.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/MagicIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/PermutateString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/PermuteStringwithDistinctChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/RecursiveMultiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/SubSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATASTRUCTURE/src/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="Rolling Changes">
+      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/Edit_Distance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/OneLineInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/Periodicity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/ZAlgo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ALGORITHM/src/Count_n_POSSIBLE_STEPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/Count_n_POSSIBLE_STEPS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ALGORITHM/src/LeeAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/LeeAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ALGORITHM/src/RandomizedSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/RandomizedSelection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALGORITHM/Breadth_first_search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALGORITHM/Breadth_first_search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALGORITHM/Depth_first_search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALGORITHM/Depth_first_search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALGORITHM/META-INF/ALGORITHM.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATASTRUCTURE/src/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/DATASTRUCTURE/src/Trie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ALGORITHM/RandomizedSelection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALGORITHM/RandomizedSelection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALGORITHM/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALGORITHM/Search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALGORITHM/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALGORITHM/Sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATASTRUCTURE/LinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATASTRUCTURE/LinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATASTRUCTURE/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATASTRUCTURE/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATASTRUCTURE/Red_Black_Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATASTRUCTURE/Red_Black_Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENTS/LinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ASSIGNMENTS/LinkedList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENTS/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ASSIGNMENTS/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENTS/Modified_linearsearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ASSIGNMENTS/Modified_linearsearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENTS/RobotGrid$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ASSIGNMENTS/RobotGrid$Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENTS/RobotGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ASSIGNMENTS/RobotGrid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENTS/SQUARE_ROOT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ASSIGNMENTS/SQUARE_ROOT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATASTRUCTRE_ALGORITHM/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATASTRUCTRE_ALGORITHM/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATASTRUCTURE/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATASTRUCTURE/Trie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DATASTRUCTURE/TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATASTRUCTURE/TrieNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FASTER_IO/FASTIO$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FASTER_IO/FASTIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FASTER_IO/FASTIO.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,56 +80,56 @@
       <recent name="$PROJECT_DIR$/ASSIGNMENTS/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryArray">
-    <configuration name="BinaryArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryArray" />
+  <component name="RunManager" selected="Application.Edit_Distance">
+    <configuration name="CompressStringZAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompressStringZAlgo" />
       <module name="ALGORITHM" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PermutateString" />
+    <configuration name="Edit_Distance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Edit_Distance" />
       <module name="ALGORITHM" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveMultiply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RecursiveMultiply" />
+    <configuration name="OneLineInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OneLineInput" />
       <module name="ALGORITHM" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RotateArray" />
+    <configuration name="Periodicity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Periodicity" />
       <module name="ALGORITHM" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trie" />
-      <module name="DATASTRUCTURE" />
+    <configuration name="ZAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZAlgo" />
+      <module name="ALGORITHM" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RecursiveMultiply" />
-      <item itemvalue="Application.PermutateString" />
-      <item itemvalue="Application.RotateArray" />
-      <item itemvalue="Application.Trie" />
-      <item itemvalue="Application.BinaryArray" />
+      <item itemvalue="Application.OneLineInput" />
+      <item itemvalue="Application.ZAlgo" />
+      <item itemvalue="Application.CompressStringZAlgo" />
+      <item itemvalue="Application.Periodicity" />
+      <item itemvalue="Application.Edit_Distance" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryArray" />
-        <item itemvalue="Application.Trie" />
-        <item itemvalue="Application.RecursiveMultiply" />
-        <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.PermutateString" />
+        <item itemvalue="Application.Edit_Distance" />
+        <item itemvalue="Application.Periodicity" />
+        <item itemvalue="Application.CompressStringZAlgo" />
+        <item itemvalue="Application.ZAlgo" />
+        <item itemvalue="Application.OneLineInput" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +183,15 @@
       <workItem from="1586185550196" duration="1875000" />
       <workItem from="1586524171046" duration="5287000" />
       <workItem from="1586786806041" duration="1165000" />
+      <workItem from="1588147989501" duration="957000" />
+      <workItem from="1588219878981" duration="763000" />
+      <workItem from="1588324552739" duration="972000" />
+      <workItem from="1588395064382" duration="993000" />
+      <workItem from="1588666695880" duration="613000" />
+      <workItem from="1589102439269" duration="522000" />
+      <workItem from="1589102981077" duration="647000" />
+      <workItem from="1589285445566" duration="4976000" />
+      <workItem from="1589357606569" duration="951000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST COMMIT">
       <created>1562065623107</created>
@@ -434,7 +438,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582901872084</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Rolling Changes">
+      <created>1588148102125</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1588148102125</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Rolling Changes">
+      <created>1588148197303</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1588148197303</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +493,8 @@
     <MESSAGE value="It Basically Helps to find which edge can be removed so that the given graph can be broken into more disconnected components but by removing only a particular edge at a time" />
     <MESSAGE value="Simply coding brute force to get a target value by adding subsequence from array" />
     <MESSAGE value="Minimizing the elements of array in one element and returning the cost&#10;suppose 1,2,3 are the elements minimum cost will be 1+2=3 then 3,3 , 3+3=6, total cost 6+3=9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minimizing the elements of array in one element and returning the cost&#10;suppose 1,2,3 are the elements minimum cost will be 1+2=3 then 3,3 , 3+3=6, total cost 6+3=9" />
+    <MESSAGE value="Rolling Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rolling Changes" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -483,10 +502,18 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="476" y="130" width="1024" height="845" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1586525639784" />
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589103103434">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1589103103434" />
     <state x="801" y="256" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1582444117784">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="801" y="256" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1582444117784" />
+    <state x="725" y="344" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589103101886">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="725" y="344" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1589103101886" />
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1582243867770">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -495,30 +522,30 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="729" y="398" width="518" height="308" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1853.1053@67.27.1853.1053" timestamp="1582818674131" />
-    <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2" timestamp="1582901872023">
+    <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2" timestamp="1589102884516">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1582901872023" />
+    <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1589102884516" />
     <state x="738" y="296" width="501" height="513" key="FileChooserDialogImpl" timestamp="1586525615311">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="738" y="296" width="501" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1586525615311" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1586787971224">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1589307215142">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1586787971224" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1586787971223">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1589307215142" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1589307215142">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1586787971223" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1586787971223">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1589307215142" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1589307215141">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1586787971223" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1586787971224">
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1589307215141" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1589307215142">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1586787971224" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1589307215142" />
     <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1582272506062">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -539,18 +566,26 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1586525524821" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1582901874647">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1588148289449">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1582901874647" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1588148289449" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586185550987">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586185550987" />
+    <state x="764" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588148207732">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="764" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1588148207732" />
     <state x="528" y="240" width="920" height="624" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582272494300">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="528" y="240" width="920" height="624" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/67.27.1853.1053@67.27.1853.1053" timestamp="1582272494300" />
+    <state x="657" y="253" key="run.anything.popup" timestamp="1589285780998">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1589285780998" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1584999386638">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
