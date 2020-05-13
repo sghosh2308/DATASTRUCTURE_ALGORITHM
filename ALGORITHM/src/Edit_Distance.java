@@ -27,8 +27,8 @@ public class Edit_Distance
 
     public static void main(String args[])
     {
-        String str1 = "SETTINGS";
-        String str2 = "saturday";
+        String str1 = "SITTING";
+        String str2 = "KITTEN";
         System.out.println(editDistDP(str1, str2, str1.length(), str2.length()));
     }
 }
