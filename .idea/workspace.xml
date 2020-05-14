@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="Rolling Changes">
+      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/Minimum_Coins.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ALGORITHM/src/OneLineInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/Periodicity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ALGORITHM/src/ZAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/ZigZagSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALGORITHM/src/LongestSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/LongestSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ALGORITHM/src/RandomizedSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/RandomizedSelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALGORITHM/src/SubSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/SubSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASSIGNMENTS/src/SQUARE_ROOT.java" beforeDir="false" afterPath="$PROJECT_DIR$/ASSIGNMENTS/src/SQUARE_ROOT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ASSIGNMENTS/SQUARE_ROOT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ASSIGNMENTS/SQUARE_ROOT.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,14 +71,7 @@
       <recent name="$PROJECT_DIR$/ASSIGNMENTS/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Edit_Distance">
-    <configuration name="CompressStringZAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompressStringZAlgo" />
-      <module name="ALGORITHM" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ZigZagSequence">
     <configuration name="Edit_Distance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Edit_Distance" />
       <module name="ALGORITHM" />
@@ -81,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneLineInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OneLineInput" />
+    <configuration name="Minimum_Coins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Minimum_Coins" />
       <module name="ALGORITHM" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,27 +93,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZAlgo" />
+    <configuration name="SQUARE_ROOT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SQUARE_ROOT" />
+      <module name="ASSIGNMENTS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZigZagSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZigZagSequence" />
       <module name="ALGORITHM" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.OneLineInput" />
-      <item itemvalue="Application.ZAlgo" />
-      <item itemvalue="Application.CompressStringZAlgo" />
       <item itemvalue="Application.Periodicity" />
       <item itemvalue="Application.Edit_Distance" />
+      <item itemvalue="Application.SQUARE_ROOT" />
+      <item itemvalue="Application.Minimum_Coins" />
+      <item itemvalue="Application.ZigZagSequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZigZagSequence" />
+        <item itemvalue="Application.Minimum_Coins" />
+        <item itemvalue="Application.SQUARE_ROOT" />
         <item itemvalue="Application.Edit_Distance" />
         <item itemvalue="Application.Periodicity" />
-        <item itemvalue="Application.CompressStringZAlgo" />
-        <item itemvalue="Application.ZAlgo" />
-        <item itemvalue="Application.OneLineInput" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +182,7 @@
       <workItem from="1589102439269" duration="522000" />
       <workItem from="1589102981077" duration="647000" />
       <workItem from="1589285445566" duration="4976000" />
-      <workItem from="1589357606569" duration="1853000" />
+      <workItem from="1589357606569" duration="10518000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST COMMIT">
       <created>1562065623107</created>
@@ -452,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589360991309</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Periodicity oF string. EX-&quot;HOHOHO&quot; is 2">
+      <created>1589361977792</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1589361977792</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +483,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="FIRST COMMIT" />
     <MESSAGE value="Adding Varagues Concept to append Function" />
     <MESSAGE value="Adding feature of multiple delete places like at end at nth position or complete list" />
     <MESSAGE value="It wasn't handling a case where inseriton or deletion was done in starting postion so this situtation is handled in this code." />
@@ -496,7 +507,8 @@
     <MESSAGE value="Rolling Changes" />
     <MESSAGE value="EDIT DISTANCE" />
     <MESSAGE value="Rolling Changes_" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rolling Changes_" />
+    <MESSAGE value="Periodicity oF string. EX-&quot;HOHOHO&quot; is 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Periodicity oF string. EX-&quot;HOHOHO&quot; is 2" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -524,30 +536,30 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="729" y="398" width="518" height="308" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1853.1053@67.27.1853.1053" timestamp="1582818674131" />
-    <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2" timestamp="1589360991192">
+    <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2" timestamp="1589361977669">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1589360991192" />
+    <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1589361977669" />
     <state x="738" y="296" width="501" height="513" key="FileChooserDialogImpl" timestamp="1586525615311">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="738" y="296" width="501" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1586525615311" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1589360968009">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1589438677492">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1589360968009" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1589360968009">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1589438677492" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1589438677489">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1589360968009" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1589360968008">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1589438677489" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1589438677487">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1589360968008" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1589360968009">
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1589438677487" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1589438677491">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1589360968009" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1589438677491" />
     <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1582272506062">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -568,10 +580,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1586525524821" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589360993594">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589361979975">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1589360993594" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1589361979975" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586185550987">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -584,10 +596,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="528" y="240" width="920" height="624" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/67.27.1853.1053@67.27.1853.1053" timestamp="1582272494300" />
-    <state x="657" y="253" key="run.anything.popup" timestamp="1589285780998">
+    <state x="657" y="253" key="run.anything.popup" timestamp="1589391848249">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1589285780998" />
+    <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1589391848249" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1584999386638">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

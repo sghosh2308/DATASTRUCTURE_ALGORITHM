@@ -59,6 +59,8 @@ public class SubSet
     }
     public static void main(String args[])
     {
+
+        //CAll the function
         System.out.println(subsetsum(new int[]{3, 34, 4, 12, 5, 2},9));
     }
 

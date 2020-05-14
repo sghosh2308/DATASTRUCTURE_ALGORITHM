@@ -14,7 +14,7 @@ public class SQUARE_ROOT {
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
         System.out.println("ENTER THE NUMBER TO CALCULATE NUMBER");
         final float approx= (float) 10e-7;
-        float array[]=new float[]{4,6,8,9};
+        float array[]=new float[]{256};
 
         for(float a:array) {
             float root = (a + 1) / 2;
