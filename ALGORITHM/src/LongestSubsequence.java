@@ -12,9 +12,8 @@ public class LongestSubsequence
         {
             for(int j=i;j>=0;j--)
             {
-                if(arr[i]>arr[j]) {
-
-                   System.out.println(i+"     "+j);
+                if(arr[i]>arr[j])
+                {
                     count[i] = Math.max(count[i], count[j] + 1);
                 }
             }

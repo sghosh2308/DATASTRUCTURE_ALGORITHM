@@ -6,7 +6,7 @@ public class Periodicity
 {
     private static void compressString(String s)
     {
-        int[] z=ZAlgo.z_algorithm(s);
+        int[] z=StringAlgorithms.z_algorithm(s);
         for(int i=0;i<z.length;i++)
         {
             if(i+z[i]==s.length())

@@ -64,8 +64,5 @@ public class RandomizedSelection {
 
         select(0,arr.length-1,i_th-1);
     }
-    public static void main(String args[]){
-        RandomizedSelection r=new RandomizedSelection(new int[]{2,10,1,4,7,3,9,5,6,8});
-        r.find(2);
-    }
+
 }
