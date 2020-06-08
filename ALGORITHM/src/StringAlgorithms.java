@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class StringAlgorithms
 {
     public static int[] manachers(String s)
@@ -33,6 +35,17 @@ public class StringAlgorithms
             //System.out.println(Arrays.toString(palindrome)+"   COUNT "+i);
         }
        // System.out.println(Arrays.toString(palindrome));
+        int length=0;
+        int index=0;
+        for(int i=0;i<palindrome.length;i++)
+        {
+            if(palindrome[i]>length)
+            {
+                length=palindrome[i];
+                index=i;
+            }
+        }
+        System.out.println(s.substring((index-length)/2,(index-length)/2+length));
         return palindrome;
     }
     public static int[] z_algorithm(String s)
@@ -59,9 +72,45 @@ public class StringAlgorithms
         //System.out.println(Arrays.toString(z));
         return z;
     }
+    public static int[] k_m_p(String s)
+    {
+        int[] kmp=new int[s.length()];
+        for(int i=1;i<s.length();i++)
+        {
+            int j=kmp[i-1];
+            while(j>0 && s.charAt(i)!=s.charAt(j))
+            {
+                j=kmp[j-1];
+            }
+            if(s.charAt(i)==s.charAt(j))
+            {
+                j++;
+            }
+            kmp[i]=j;
+        }
+        System.out.println(Arrays.toString(kmp));
+        int[] ans=new int[s.length()+1];
+        for(int i=0;i<s.length();i++)
+        {
+            ans[kmp[i]]++;
+        }
+        for(int i=s.length()-1;i>0;i--)
+        {
+            ans[kmp[i-1]]+=ans[i];
+        }
+        for(int i=0;i<=s.length();i++)
+        {
+            ans[i]++;
+        }
+        System.out.println(Arrays.toString(ans));
+        return kmp;
+
+    }
+
     public static void main(String[] args)
     {
-        manachers("aaaa");
+        manachers("baaaab");
         z_algorithm("aaaa");
+        k_m_p("bbaa");
     }
 }

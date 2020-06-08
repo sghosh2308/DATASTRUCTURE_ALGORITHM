@@ -146,6 +146,7 @@ public class BinarySearchTree {
     }
 
 
+
     public static void main(String args[]) {
         BinarySearchTree b = new BinarySearchTree();
         b.insert(new int[]{23, 45, 1, 26, 89, 70, 36, 78, 98, 22, 19, 3, 100, 120, 34});
@@ -154,3 +155,4 @@ public class BinarySearchTree {
     }
 }
 
+  
