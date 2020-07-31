@@ -24,23 +24,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a4c8cb4-f24f-495a-8b17-dfe5b4f216de" name="Default Changelist" comment="Wrote a program for suffix array, If any one can code it more beautifully please do it.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ALGORITHM/src/Sliding_window_maximum.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ALGORITHM/src/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGORITHM/src/SuffixArray.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CodeForce/CodeForce.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATASTRUCTURE/src/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATASTRUCTURE/src/SegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DATASTRUCTURE/src/SegmentTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALGORITHM/META-INF/ALGORITHM.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALGORITHM/Manachers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALGORITHM/Periodicity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALGORITHM/Periodicity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALGORITHM/StringAlgorithms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ALGORITHM/StringAlgorithms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ALGORITHM/ZAlgo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATASTRUCTURE/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATASTRUCTURE/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATASTRUCTURE/DisjointSets$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DATASTRUCTURE/DisjointSets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DATASTRUCTURE/DisjointSets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALGORITHM/src/SuffixArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/ALGORITHM/src/SuffixArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +244,7 @@
       <workItem from="1596152998243" duration="4653000" />
       <workItem from="1596170688094" duration="109000" />
       <workItem from="1596170821218" duration="1336000" />
-      <workItem from="1596198688438" duration="9557000" />
+      <workItem from="1596198688438" duration="10209000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST COMMIT">
       <created>1562065623107</created>
@@ -574,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591659644704</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Wrote a program for suffix array, If any one can code it more beautifully please do it.">
+      <created>1596216490431</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1596216490431</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,7 +587,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Binary Search tree creation and display methods are implemented." />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Deletion and Insertion updated. Now function can take muliple values for deletion and insertion" />
     <MESSAGE value="Deletion by value function added" />
     <MESSAGE value="CREATING A MODIFIED LINEAR SEARCH FOR LINKED LIST" />
@@ -618,7 +612,8 @@
     <MESSAGE value="Rolling Changes" />
     <MESSAGE value="Z_ALGO,MANACHER" />
     <MESSAGE value="____" />
-    <option name="LAST_COMMIT_MESSAGE" value="____" />
+    <MESSAGE value="Wrote a program for suffix array, If any one can code it more beautifully please do it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote a program for suffix array, If any one can code it more beautifully please do it." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -652,10 +647,10 @@
     </state>
     <state x="686" y="394" width="537" height="323" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1920.1053@0.27.1920.1053" timestamp="1596216176777" />
     <state x="729" y="394" width="518" height="316" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1853.1053@67.27.1853.1053" timestamp="1595566547896" />
-    <state x="425" y="96" width="1023" height="912" key="CommitChangelistDialog2" timestamp="1596216149054">
+    <state x="425" y="96" width="1402" height="919" key="CommitChangelistDialog2" timestamp="1596216489582">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="425" y="96" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1596216149054" />
+    <state x="425" y="96" width="1402" height="919" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1596216489582" />
     <state x="477" y="96" width="1023" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1595797618499" />
     <state width="1874" height="234" key="GridCell.Tab.0.bottom" timestamp="1596216324867">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -697,9 +692,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="197" y="320" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1596170661066" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1591659648823">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="540" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1596216493861">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="540" y="288" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1596216493861" />
     <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1591659648823" />
     <state x="764" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588148207732">
       <screen x="67" y="27" width="1853" height="1053" />
