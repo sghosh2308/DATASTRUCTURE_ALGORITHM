@@ -25,15 +25,14 @@ public class SegmentTree<T extends Number>
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////SUM QUERY/////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-private T add(T t, T t1)
+@SuppressWarnings("unchecked")
+    private T add(T t, T t1)
 {
     /*If one of them has value don't return null*/
     if (t == null || t1 == null) {
         if(t !=null)
             return t;
-        if(t1 !=null)
-            return t1;
-        return null;
+        return t1;
 
     }
     if (t instanceof Double) {
@@ -76,16 +75,14 @@ public T sumQuery(int l,int r)
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////MAX QUERY/////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-private T max(T t, T t1)
+@SuppressWarnings("unchecked")
+    private T max(T t, T t1)
 {
     /*If one of them has value don't return null*/
     if (t == null || t1 == null) {
         if(t !=null)
             return t;
-        if(t1 !=null)
-            return t1;
-        return null;
-
+        return t1;
     }
     if (t instanceof Double) {
         return (T) new Double(Math.max(t.doubleValue() , t1.doubleValue()));
@@ -127,16 +124,14 @@ private T rangemax(int v,int l,int r,int tl,int tr)
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////MIN QUERY/////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-private T min(T t, T t1)
+@SuppressWarnings("unchecked")
+    private T min(T t, T t1)
 {
         /*If one of them has value don't return null*/
         if (t == null || t1 == null) {
             if(t !=null)
                 return t;
-            if(t1 !=null)
-                return t1;
-            return null;
-
+            return t1;
         }
         if (t instanceof Double) {
             return (T) new Double(Math.min(t.doubleValue() , t1.doubleValue()));
@@ -177,10 +172,10 @@ private void min_build(T[] arr,int v,int tl,int tr)
     }
 
 
-
-    public static void main(String args[])
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public static void main(String[] args)
     {
-        SegmentTree<Double> st=new SegmentTree<Double>(new Double[]{1.0,2.5,3.0});
+        SegmentTree<Double> st=new SegmentTree<>(new Double[]{1.0,2.5,3.0});
         System.out.println(st.Maxarray.toString());
         System.out.println(st.Minarray.toString());
         System.out.println(st.Sumarray.toString());
