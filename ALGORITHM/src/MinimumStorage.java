@@ -19,6 +19,8 @@ public class MinimumStorage {
             ArrayList<Integer> arr=new ArrayList<>();
             for(int i=0;i<a.length;i++)
             {
+
+                if(a[i]-b[i]>0)
                 arr.add(a[i]-b[i]);
             }
             arr.sort(Comparator.reverseOrder());
